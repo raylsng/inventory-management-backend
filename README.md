@@ -14,19 +14,19 @@
    git clone https://github.com/raylsng/inventory-management-backend.git
    
 2. Instal dependensi :
-   ```
+   ```bash
    npm install
    
 3. Periksa URL pada file .env :
-   ```
+   ```bash
    DATABASE_URL="postgresql://postgres:password@localhost:5432/inventory-management"
    
 4. Melakukan migrasi Prisma :
-   ```
+   ```bash
    npx prisma migrate dev
 
 5. Mulai aplikasi :
-   ```
+   ```bash
    npm start
    
 ---
